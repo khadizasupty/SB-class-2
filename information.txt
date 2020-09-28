@@ -1,0 +1,51 @@
+for use font awesome icons:
+1.link html with font awesome.
+way:
+download and use
+cdn link(its better.)
+
+cdn link:google->font awesome cdn ->copy link ->go html page ->head->link it.
+
+**1 ta single line hole likha ta kono kisur majhe anar jonno line-height use kore.line-height same as height dite hbe.por por duita line er jonno aita kaj korbe na.
+**hover er jonno->transform : scale(1.4/0.6){N.B: 1 er upor dile boro hbe.and 1 er niche dile choto hbe.}
+**margin/padding(For spacing between elements):
+1.margin:
+	margin-top:24px;
+	margin-right: 32px;
+	margin-bottom:12px;
+	margin-left:25px;
+w3School
+margin:10px;(left,right,top,bottom)
+margin: 15px 20px;(t-b,l-r)
+margin:10px 20px 30px;(T,l-r,B)
+margin:10px 20px 30px 40px;(T,R,B,L)
+
+
+2.padding:
+	padding-top:24px;
+	padding-right: 32px;
+	padding-bottom:12px;
+	padding-left:25px;
+w3School
+padding:10px;(left,right,top,bottom)
+padding: 15px 20px;(t-b,l-r)
+padding:10px 20px 30px;(T,l-r,B)
+padding:10px 20px 30px 40px;(T,R,B,L)
+**difference between margin & padding:
+margin create space from outside
+padding create space from inside.
+
+**position is need for ekta html element er upor onno akta element niyar jonno use korte hoy.
+
+there is 4 types of position:
+1.relative(every element by default relative hoy.)
+2.absolute
+3.fixed
+4.static
+
+jake onno ter upor nibo seta holo position: absolute
+jar upor nibo oita holo position: relative.
+ property of position:left,right,top,botom
+
+**ctrl+/ for comment
+	

@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background: linear-gradient(45deg,#28004B   ,#FFFFFF );
+	height:100vh;
+}
+a {
+	text-decoration: none;
+
+}
+.header{
+	text-align: center;
+}
+.header ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	
+}
+.header ul li a{
+	color: #000;
+}
+.header ul li a:hover{
+	color: red;
+
+}
+.social-icon{
+	text-align: center;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+.social-icon ul li a i{
+	height: 60px;
+	width: 60px;
+	background-color: red;
+	color: white;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 22px;
+	transition: .5s;
+	position: fixed;
+	z-index: 9999;
+
+
+}
+.social-icon ul li i:hover{
+	transform: scale(0.8);
+	transition: .5s;
+}
+
+.subscribe{
+
+	width: 400px;
+	
+	border-radius: 5px;
+	margin: 30px auto;
+	background-color:rgba(255,255,255,0.6);
+	text-align: center;
+	padding: 31px 15px;
+}
+h3{
+	margin: 0px;
+	margin-bottom: 18px;
+}
+input{
+	padding: 10px 20px;
+    background: transparent;
+    
+    border: 1px solid black;
+}
+input:focus{
+	outline: none;
+}
+.submit-btn{
+	background-color: red;
+	color: white;
+	border:1px solid red;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.submit-btn:hover{
+
+	background-color: black;
+	border:1px solid black;
+	transition: 0.5s;
+
+}
+
+.post{
+
+	width: 400px;
+	margin: 0px auto;
+	position: relative;
+	}
+.position{
+	position: absolute;
+    top: 19px;
+    left: 127px;
+    color: cornflowerblue;
+    margin: 0px;
+    padding: 0px;
+
+}
+.outer-box{
+
+	width: 400px;
+	height: 200px;
+	background-color: rgba(255,255,255,1);
+	margin: auto;
+	border-radius: 10px;
+	position: relative;
+}
+.circle{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	    top: 50px;
+    left: 146px;
+
+}
+.box-icon{
+
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255,255,255,1);
+	margin: auto;;
+    position: absolute;
+    bottom: -15px;
+    left: 170px;
+    transform: rotate(45deg);
